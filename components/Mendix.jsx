@@ -9,7 +9,6 @@ async function loadMendixApp() {
   // append styles
   for (const element of template.content.querySelectorAll('link')) {
     document.head.appendChild(element)
-    console.log('element')
   }
 
   // append scripts
