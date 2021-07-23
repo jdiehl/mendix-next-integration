@@ -10,4 +10,4 @@ Next.js & Mendix Integration Project
 
 All requests that are not handled by Next.js are forwarded to the Mendix App (via [`./server.js`](https://github.com/jdiehl/next-mendix-integration/blob/main/server.js))
 
-The Mendix component ([`./components/Mendix.tsx`](https://github.com/jdiehl/next-mendix-integration/blob/main/components/Mendix.jsx)) retrieves the Mendix App via `/index.html` and attaches the stylesheets and scripts to the Next.js app.
+The Mendix component ([`./components/Mendix.tsx`](https://github.com/jdiehl/next-mendix-integration/blob/main/components/Mendix.jsx)) retrieves the Mendix App via [`/index.html`](http://localhost:3000/index.html) and attaches the stylesheets and scripts to the Next.js app.
