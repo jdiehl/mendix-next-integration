@@ -16,10 +16,6 @@ a {
 }
 
 #content {
-  marign: 1em;
+  margin: 2em;
   border: 1px solid #aaa;
-  display: inline-block;
-  max-width: 400px;
-  max-height: 400px;
-  overflow: none;
 }
