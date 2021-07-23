@@ -27,12 +27,7 @@ export default function Mendix() {
     loadMendixApp().catch (err => console.error(err))
   }, [])
 
-  const style = {
-    width: 400,
-    height: 400,
-  }
-
   return (
-    <div style={style} id="content" />
+    <div id="content" />
   )
 }
