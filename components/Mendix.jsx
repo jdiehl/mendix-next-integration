@@ -27,7 +27,7 @@ export default function Mendix() {
   }, [])
 
   const style = {
-    width: 400,
+    width: 600,
     height: 400
   }
 
