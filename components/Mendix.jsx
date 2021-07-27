@@ -27,11 +27,11 @@ export default function Mendix() {
   }, [])
 
   const style = {
-    width: 600,
+    width: '100%',
     height: 400
   }
 
   return (
-    <div style={style} id="content" />
+    <div /*style={style}*/ id="content" />
   )
 }
